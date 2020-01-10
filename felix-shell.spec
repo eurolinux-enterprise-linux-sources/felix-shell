@@ -3,7 +3,7 @@
 
 Name:           %{project}-shell
 Version:        1.4.3
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Apache Felix Shell Service
 
 Group:          Development/Libraries
@@ -54,6 +54,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.3-5
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 1.4.3-4
 - Migrate away from mvn-rpmbuild (Resolves: #997489)
 
